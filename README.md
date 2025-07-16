@@ -13,7 +13,7 @@ This is a simple web application that converts typed text into spoken words usin
 ## Usage
 
 1. Clone the repository:
-git clone https://github.com/jatin009v/text-to-speech-converter.git
+(https://sankalp-gupta1.github.io/Text-to-Voice-Converter/)
 2. Open the index.html file in your preferred web browser.
 
 3. Enter the text you want to convert into speech in the text area.
