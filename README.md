@@ -1,37 +1,86 @@
-# Text-to-Speech Converter
+# Text-to-Voice Converter
 
-This is a simple web application that converts typed text into spoken words using the Text-to-Speech (TTS) technology. The application allows users to enter any text, select a voice, and listen to the spoken version of the text.
+A lightweight browser-based text-to-speech application built with **HTML, CSS, JavaScript, and the Web Speech API**.
+
+Users can type text, choose one of the voices available in their browser or operating system, and listen to the text as synthesized speech.
+
+## Live Demo
+
+https://sankalp-gupta1.github.io/Text-to-Voice-Converter/
 
 ## Features
 
-- Input text area to enter the desired text for conversion.
-- Voice selection dropdown to choose from available voices.
-- Play button to initiate the conversion and listen to the spoken words.
-- Supports multiple languages and accents for voice selection.
-- Responsive design for optimal usage on various devices.
+- Text input for speech generation
+- Browser voice selection
+- Automatic loading of available system voices
+- Multi-language / accent support based on installed voices
+- Responsive interface
+- No backend required
+- No external text-to-speech API required
+
+## How It Works
+
+```text
+User enters text
+      │
+      ▼
+Select browser/system voice
+      │
+      ▼
+SpeechSynthesisUtterance
+      │
+      ▼
+Browser Speech Synthesis Engine
+      │
+      ▼
+Audio playback
+```
+
+## Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript
+- Web Speech API
+- GitHub Pages
+
+## Project Structure
+
+```text
+Text-to-Voice-Converter/
+├── index.html
+├── styles.css
+├── script.js
+├── img/
+└── README.md
+```
+
+## Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Sankalp-gupta1/Text-to-Voice-Converter.git
+cd Text-to-Voice-Converter
+```
+
+Open `index.html` in a modern browser.
+
+You can also use a local static server such as VS Code Live Server.
 
 ## Usage
 
-1. Clone the repository:
-(https://sankalp-gupta1.github.io/Text-to-Voice-Converter/)
-2. Open the index.html file in your preferred web browser.
+1. Enter text in the text area.
+2. Select a voice from the dropdown.
+3. Click the speech/play button.
+4. The browser reads the text using the selected voice.
 
-3. Enter the text you want to convert into speech in the text area.
+## Browser Support
 
-4. Select a voice from the dropdown list. Choose a voice that best suits your preference or language.
+Voice availability depends on the browser and operating system because the application uses the device's built-in speech synthesis voices.
 
-5. Click the "Listen" button to initiate the conversion.
+## Author
 
-6. Enjoy listening to the spoken version of your text!
+**Sankalp Gupta**
 
-## Credits
-
-This project is created and maintained by Jatin009v. Feel free to explore and modify the code to suit your needs.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-© Jatin009v
+GitHub: https://github.com/Sankalp-gupta1
